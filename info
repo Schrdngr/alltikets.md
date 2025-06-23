@@ -1,0 +1,37 @@
+Вот структура проекта event-aggregator-mvp:
+
+📁 event-aggregator-mvp/
+├── 📁 backend/
+│   ├── main.py
+│   ├── models.py
+│   ├── database.py
+│   ├── crud.py
+│   ├── schemas.py
+│   └── requirements.txt
+│
+├── 📁 frontend/
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── 📁 src/
+│       ├── App.jsx
+│       ├── main.jsx
+│       ├── i18n.js
+│       ├── components/
+│       │   ├── EventCard.jsx
+│       │   └── Header.jsx
+│       └── assets/
+│           └── ... (иконки, картинки и т.п.)
+│
+├── 📁 scraper/
+│   ├── run_all_parsers.py
+│   ├── iticket_parser.py
+│   ├── mticket_parser.py
+│   ├── afisha_parser.py
+│   └── livetickets_parser.py
+│
+├── docker-compose.yml
+├── .env.example
+└── README.md
